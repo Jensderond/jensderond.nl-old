@@ -62,3 +62,5 @@ contact-info:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+exclude: [node_modules, gulpfile.js, src, package.json, README.md, screenshot.png, package-lock.json]
