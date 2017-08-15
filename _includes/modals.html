@@ -18,7 +18,7 @@
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="{{ post.site }}">{{ post.client }}</a>
+                                    <strong><a target="_blank" href="{{ post.site }}">{{ post.client }}</a>
                                     </strong>
                                 </li>
                                 <li>Date:
@@ -30,6 +30,7 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <a target="_blank" href="{{ post.site }}" class="btn btn-info"><i class="fa fa-angle-double-right"></i> Open project</a>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

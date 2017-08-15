@@ -90,6 +90,16 @@ hr.star-primary:after {
     content: "\f004";
 }
 
+#about hr.star-light:after,
+#about hr.star-primary:after {
+    content: "\f113";
+}
+
+#contact hr.star-light:after,
+#contact hr.star-primary:after {
+    content: "\f1d8";
+}
+
 hr.star-light {
     border-color: #fff;
 }
