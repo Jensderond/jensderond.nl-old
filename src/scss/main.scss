@@ -83,6 +83,13 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
+#portfolio hr.star-light:after,
+#portfolio hr.star-primary:after,
+.modal hr.star-light:after,
+.modal hr.star-primary:after {
+    content: "\f004";
+}
+
 hr.star-light {
     border-color: #fff;
 }
