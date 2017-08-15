@@ -484,8 +484,13 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-.navbar-nav>.active>a {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: $primary !important;
     background-color: $secondary-dark !important;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #fff !important;
+  background-color: $secondary-dark !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -493,4 +498,16 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+#about i.fa {
+  padding-right: 10px;
+  width: 33px;
+}
+#about i.red {
+  color: red;
+}
+
+.fa-fw {
+    width: 2em !important;
 }

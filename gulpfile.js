@@ -26,7 +26,8 @@ var paths = {
 	src: {
 		css: './src/scss',
 		images: './src/img',
-		js: './src/js'
+		js: './src/js',
+		includes: './_includes'
 	},
 	dist: {
 		css: './_includes/css',
@@ -66,23 +67,29 @@ gulp.task('jekyll', () => {
       .forEach((message) => gutil.log('Jekyll: ' + message));
   };
 
-  jekyll.stdout.on('data', jekyllLogger);
-  jekyll.stderr.on('data', jekyllLogger);
+  // jekyll.stdout.on('data', jekyllLogger);
+  // jekyll.stderr.on('data', jekyllLogger);
 });
 
 gulp.task('serve', () => {
   browserSync.init({
     files: [site_root + '/**'],
     port: 4000,
+		logLevel: "info",
     server: {
       baseDir: site_root
     }
   });
 
-  gulp.watch(paths.src.css + '/*.scss', ['jekyll-rebuild']);
+  gulp.watch(paths.src.css + '/*.scss', ['jekyll-rebuild-style']);
+	gulp.watch(paths.src.includes + '/**/*.*', ['jekyll-rebuild']);
 });
 
-gulp.task('jekyll-rebuild', ['styles', 'jekyll'], function () {
+gulp.task('jekyll-rebuild-style', ['styles', 'jekyll'], function () {
+    browserSync.reload();
+});
+
+gulp.task('jekyll-rebuild', ['jekyll'], function () {
     browserSync.reload();
 });
 
