@@ -3,6 +3,7 @@ layout: default
 modal-id: 2
 date: 2015-09-16
 img: vakantie-verblijf-zilte-zee-preview.png
+img-tn: vakantie-verblijf-zilte-zee-preview_tn.jpg
 alt: Classico parket
 project-date: September 2015
 client: Vakantieverblijf Zilte Zee

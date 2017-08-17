@@ -3,6 +3,7 @@ layout: default
 modal-id: 8
 date: 2017-03-22
 img: cooking-with-twins-preview.png
+img-tn: cooking-with-twins-preview_tn.jpg
 alt: Cooking with Twins
 project-date: March 2017
 client: Cooking with Twins

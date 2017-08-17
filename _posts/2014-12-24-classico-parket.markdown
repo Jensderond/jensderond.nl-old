@@ -3,6 +3,7 @@ layout: default
 modal-id: 1
 date: 2014-12-24
 img: classico-parket-preview.png
+img-tn: classico-parket-preview_tn.jpg
 alt: Classico parket
 project-date: December 2014
 client: Classico parket

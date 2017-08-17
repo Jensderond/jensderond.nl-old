@@ -3,6 +3,7 @@ layout: default
 modal-id: 7
 date: 2016-10-24
 img: trapmakeover-preview.png
+img-tn: trapmakeover-preview_tn.jpg
 alt: Trap make-over
 project-date: October 2016
 client: Trap make-over

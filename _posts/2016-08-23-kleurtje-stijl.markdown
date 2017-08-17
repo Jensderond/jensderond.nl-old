@@ -3,6 +3,7 @@ layout: default
 modal-id: 5
 date: 2016-08-23
 img: kleurtje-stijl-preview.png
+img-tn: kleurtje-stijl-preview_tn.jpg
 alt: Kleur(t) je Stijl
 project-date: August 2016
 client: Kleur(t) je Stijl

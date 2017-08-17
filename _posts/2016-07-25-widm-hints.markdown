@@ -3,6 +3,7 @@ layout: default
 modal-id: 4
 date: 2016-07-25
 img: widm-hints-preview.png
+img-tn: widm-hints-preview_tn.jpg
 alt: (@WIDMHINTS_NL)
 project-date: July 2016
 client: My own project

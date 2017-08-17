@@ -3,6 +3,7 @@ layout: default
 modal-id: 6
 date: 2016-09-05
 img: godanaw-holland-preview.png
+img-tn: godanaw-holland-preview_tn.jpg
 alt: Godanaw-Holland
 project-date: October 2016
 client: Godanaw-Holland
